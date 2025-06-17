@@ -63,4 +63,9 @@
   .recipe-origin {
     font-size: 50px;
   }
+
+  .quick-notes li {
+    display: flex;
+    padding: 10px;
+  }
 }
