@@ -32,4 +32,19 @@
     font-size: 20px;
     padding: 10px 50px;
   }
+
+  .ads {
+    display: block;
+    background-image: url(../screens/banner.png);
+    height: 110px;
+    background-size: cover;
+
+  }
+
+
+
+  .clearfix img {
+    float: left;
+  }
+
 }
