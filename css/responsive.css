@@ -44,7 +44,12 @@
 
 
   .clearfix img {
+    background-image: url(../screens/tiramisu.jpg);
     float: left;
+    width: 40%;
+    height: 200px;
+    background-size: cover;
+    margin-right: 30px;
   }
 
 }
