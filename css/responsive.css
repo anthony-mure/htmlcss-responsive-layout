@@ -68,4 +68,17 @@
     display: flex;
     padding: 10px;
   }
+
+  .recip-card {}
+
+
+
+  .social-networks .label {
+    display: block;
+  }
+
+
+
+
+
 }
