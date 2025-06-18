@@ -11,8 +11,7 @@
   }
 
   .recipe-origin {
-    display: block;
-    display: inline-block;
+    display: inline;
 
   }
 
@@ -21,12 +20,16 @@
     font-size: 30px;
   }
 
-  .quick-notes li {
-    display: inline-flex;
-    flex-direction: row;
+  .quick-notes ul {
+    display: flex;
     flex-wrap: wrap;
-    padding: 20px
+    padding: 10px,
   }
+
+  .quick-notes ul li {
+    width: calc(100% / 3 -20px);
+  }
+
 
   .social-networks .btn {
     font-size: 20px;
@@ -64,17 +67,33 @@
     font-size: 50px;
   }
 
-  .quick-notes li {
-    display: flex;
-    padding: 10px;
+  .quick-notes ul {
+    display: block;
+
   }
 
-  .recip-card {}
+  .recip-card {
+    display: flex;
+  }
 
+  .recip-video {
+    width: 70%;
+    max-height: 420px;
+  }
 
+  .recipe-info {
+    width: 30%;
+  }
 
   .social-networks .label {
-    display: block;
+    display: inline;
+  }
+
+  .footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: left;
   }
 
 
